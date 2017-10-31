@@ -5,6 +5,12 @@ import xml.etree.ElementTree as ET
 import tensorflow as tf
 import os
 
+
+"""
+     Created by Lars Badde
+
+"""
+
 tree = ET.parse('preferences.xml')
 root = tree.getroot()
 

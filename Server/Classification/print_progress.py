@@ -5,6 +5,12 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 
+
+"""
+     Created by Lars Badde
+
+"""
+
 def put_cursor(x,y):
     print ("\x1b[{};{}H".format(y+1,x+1))
 def clear():

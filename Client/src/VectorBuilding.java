@@ -1,5 +1,5 @@
 /**
- * Created by Media Markt on 08.08.2017.
+ * Created by Lars Badde on 08.08.2017.
  */
 public class VectorBuilding {
 

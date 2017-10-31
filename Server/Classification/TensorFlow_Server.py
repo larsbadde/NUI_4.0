@@ -14,6 +14,12 @@ import time
 import uuid
 #from utils import sparse_tuple_from as sparse_tuple_from
 
+"""
+     Created by Lars Badde
+
+"""
+
+
 MAIN_DIR = os.getcwd()
 
 mod_uuid = input('Model UUID eingeben...')

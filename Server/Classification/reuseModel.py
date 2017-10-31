@@ -17,6 +17,12 @@ import readPrefs as prefs
 import printProgress as progress
 
 
+"""
+     Created by Lars Badde
+
+"""
+
+
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 MAIN_DIR = os.getcwd()
