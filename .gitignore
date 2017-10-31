@@ -1,10 +1,14 @@
 # Created by .ignore support plugin (hsz.mobi)
-.csv
-**/TrainingData/**
-**/Import_Data/**
-**/Model_Export/**
-**/Results/**
+*.csv
+*.xlsx
+*.db
+*.accdb
+**/TrainingData/*/*
+**/Import_Data/*/*
+**/Model_Export/*/*
+**/Results/*/*
 **/__pycache__
+
 
 
 
