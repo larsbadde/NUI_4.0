@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Naemi\\Desktop\\Thesis\\ML/Model_Export/3DRNN_LSTM_CTC_EVA_Anz_Neurons_c54f33d2-4ec3-4b48-9746-66c29463af6a//trained_model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Naemi\\Desktop\\Thesis\\ML/Model_Export/3DRNN_LSTM_CTC_EVA_Anz_Neurons_c54f33d2-4ec3-4b48-9746-66c29463af6a//trained_model.ckpt"

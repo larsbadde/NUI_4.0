@@ -1,15 +1,17 @@
 # Created by .ignore support plugin (hsz.mobi)
 *.csv
-*.xlsx
+#*.xlsx
 *.db
 *.accdb
-*.pbtxt
-*.ckpt.data-00000-of-00001
-*.data-00000-of-00001
-*.index
-*.ckpt.index
-*.ckpt.meta
-*checkpoint
+
+#*.pbtxt
+#*.ckpt.data-00000-of-00001
+#*.data-00000-of-00001
+#*.index
+#*.ckpt.index
+#*.ckpt.meta
+#*checkpoint
+
 
 **/__pycache__
 

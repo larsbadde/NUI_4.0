@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/NUI4.0/ML/Model_Export/3DRNN_LSTM_CTC_c7f87fa2-0748-45ba-8e1d-a51732b1d9a1//trained_model.ckpt"
+all_model_checkpoint_paths: "D:/NUI4.0/ML/Model_Export/3DRNN_LSTM_CTC_c7f87fa2-0748-45ba-8e1d-a51732b1d9a1//trained_model.ckpt"

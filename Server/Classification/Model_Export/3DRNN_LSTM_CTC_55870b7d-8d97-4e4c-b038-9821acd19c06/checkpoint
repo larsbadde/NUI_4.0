@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Naemi\\Desktop\\Thesis\\ML/Model_Export/3DRNN_LSTM_CTC_55870b7d-8d97-4e4c-b038-9821acd19c06//trained_model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Naemi\\Desktop\\Thesis\\ML/Model_Export/3DRNN_LSTM_CTC_55870b7d-8d97-4e4c-b038-9821acd19c06//trained_model.ckpt"

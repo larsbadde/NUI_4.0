@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/NUI4.0/NUI4.0_Server/Export/TrainingData/ALL/Model/3DRNN_LSTM_softmax//trained_model.ckpt"
+all_model_checkpoint_paths: "D:/NUI4.0/NUI4.0_Server/Export/TrainingData/ALL/Model/3DRNN_LSTM_softmax//trained_model.ckpt"

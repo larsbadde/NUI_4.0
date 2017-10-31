@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\NUI4.0\\ML/Model_Export/3DRNN_LSTM_CTC_EVA_Anz_Neuronen_12c74e26-e7fc-44b2-9ecb-dc224c94a71e//trained_model.ckpt"
+all_model_checkpoint_paths: "D:\\NUI4.0\\ML/Model_Export/3DRNN_LSTM_CTC_EVA_Anz_Neuronen_12c74e26-e7fc-44b2-9ecb-dc224c94a71e//trained_model.ckpt"
