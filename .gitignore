@@ -3,10 +3,14 @@
 *.xlsx
 *.db
 *.accdb
-**/TrainingData/*/*
-**/Import_Data/*/*
-**/Model_Export/*/*
-**/Results/*/*
+*.pbtxt
+*.ckpt.data-00000-of-00001
+*.data-00000-of-00001
+*.index
+*.ckpt.index
+*.ckpt.meta
+*checkpoint
+
 **/__pycache__
 
 
