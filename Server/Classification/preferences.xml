@@ -1,0 +1,75 @@
+<preferences>
+    <option name="NR_OF_EPOCHS" value="99">
+        <value>102</value>
+    </option>
+    <option name="NR_OF_STEPS">
+        <value>1</value>
+    </option>
+    <option name="NR_OF_LAYERS">
+        <value>3</value>
+    </option>
+    <option name="NR_OF_NEURONS">
+        <value>200</value>
+    </option>
+    <option name="NR_OF_OUTPUTS">
+        <value>12</value>
+    </option>
+    <option name="NR_OF_INPUTS">
+        <value>41</value>
+    </option>
+    <option name="BATCH_SIZE">
+        <value>1</value>
+    </option>
+    <option name="PREPROCESS_COLLAPSE_REPEATED">
+        <value>true</value>
+    </option>
+    <option name="CTC_MERGE_REPEATED">
+        <value>false</value>
+    </option>
+    <option name="APPLY_DROPOUT">
+        <value>true</value>
+    </option>
+    <option name="KEEP_PROB">
+        <value>0.5</value>
+    </option>
+    <option name="ACTIVATION">
+        <value>tanh</value>
+    </option>
+    <option name="LEARNING_RATE">
+        <value>5.0E-5</value>
+    </option>
+    <option name="OPTIMIZER">
+        <value>adam</value>
+    </option>
+    <option name="MOMENTUM">
+        <value>0.9</value>
+    </option>
+    <option name="EPSILON">
+        <value>1.0E-8</value>
+    </option>
+    <option name="DECAY_1">
+        <value>0.9</value>
+    </option>
+    <option name="DECAY_2">
+        <value>0.9999</value>
+    </option>
+    <option name="USE_LOCKING">
+        <value>false</value>
+    </option>
+    <option name="CENTERED">
+        <value>false</value>
+    </option>
+    <option name="MIN_ACC">
+        <value>0.9947</value>
+    </option>
+    <option name="MAX_FKP">
+        <value>0.0001</value>
+    </option>
+    <option name="MAX_EPOCHS_SICNE_LAST_MAX">
+        <value>5</value>
+    </option>
+    <option name="MAX_TIMES_MAX_REACHED">
+        <value>1</value>
+    </option>
+
+</preferences>

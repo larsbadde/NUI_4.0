@@ -1,0 +1,53 @@
+@import java.util
+@(UserList: util.List[User])
+
+@main("Export Options") {
+    <script type='text/javascript' src='@routes.Assets.versioned("javascripts/custom/training.scala.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("javascripts/jquery-3.2.1.js")'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+} {
+
+
+    <div class="panel panel-default">
+
+
+
+        <div class="panel-body">
+            <h3>Alle Daten exportien</h3>
+            Alle Trainingsdaten werden exportiert, unabhängig von Nutzer oder anderen Einschränkungren.
+            <br>
+            <br>
+            <span class="label label-danger"><strong>Achtung!</strong> Der Export kann abhängig von der Datenmenge einige Zeit dauern.</span>
+            <br>
+            <br>
+                <a type="button" class="btn btn-success" href='@routes.TrainingController.ExportAllTrainingData'>OK <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h3>Daten für speziellen Nutzer exportieren</h3>
+            <br>
+            <img src='@routes.Assets.versioned("images/uc.jpg")' alt="140x140" class="img-rounded" height="120" width="120" align="center">
+            <br>
+            <span class="label label-warning"><strong>Achtung!</strong> Der Export kann abhängig von der Datenmenge einige Zeit dauern.</span>
+            <br>
+            <br>
+            <div class="list-group" width="200">
+
+                @for(user <- UserList) {
+                    <a href="@routes.TrainingController.ExportTrainingDataForUser(user.id)" id=@user.id class="list-group-item">@user.id      @user.prename @user.surname </a>
+                }
+
+
+            </div>
+        </div>
+
+    </div>
+
+}

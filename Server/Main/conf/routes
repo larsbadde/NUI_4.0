@@ -1,0 +1,52 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /                           controllers.HomeController.index
+GET     /ws                         controllers.HomeController.ws
+
+# training related
+GET     /training                  controllers.TrainingController.Training
+POST    /startTraining             controllers.TrainingController.startTraining
+GET    /stopTraining               controllers.TrainingController.stopTraining
+GET    /deleteTrainingData/:UUID   controllers.TrainingController.deleteTrainingData(UUID: java.util.UUID)
+
+# Data Export
+GET    /ShowExportOptions             controllers.TrainingController.ExportOptions
+GET    /ExportAllTrainingData         controllers.TrainingController.ExportAllTrainingData
+GET    /ExportTrainingDataForUser/:id        controllers.TrainingController.ExportTrainingDataForUser(id: Long)
+
+
+GET    /ShowSingleTrainingFrame/:id    controllers.TrainingController.ShowSingleTrainingFrame(id: Long)
+GET    /ShowTrainingSession/:id        controllers.TrainingController.ShowSessionAggregateTrainingData(id: String)
+GET    /ShowUserAggregateTrainingData controllers.TrainingController.ShowUserAggregateTrainingData
+
+
+# User related
+GET    /ShowUsers                  controllers.HomeController.ShowUsers
+GET    /AddingUser                 controllers.HomeController.StartAddingAUser
+GET    /ShowUser/:ID               controllers.HomeController.ShowUser(ID:Long)
+GET    /GetJsonUserList            controllers.HomeController.getJsonUserList
+# Gesture related
+GET    /ShowGestures               controllers.HomeController.ShowGestures
+GET    /AddingGesture              controllers.HomeController.StartAddingAGesture
+GET    /ShowGesture/:ID            controllers.HomeController.ShowGesture(ID:Long)
+GET    /GetJsonGestureList         controllers.HomeController.getJsonGestureList
+# Device related
+GET    /ShowDevices                controllers.HomeController.ShowDevices
+GET    /AddingDevice               controllers.HomeController.StartAddingADevice
+GET    /ShowDevice/:ID             controllers.HomeController.ShowDevice(ID:Long)
+GET    /GetJsonDeviceList          controllers.HomeController.getJsonDeviceList
+
+
+# TensorFlow related
+GET    /TensorFlowControl         controllers.TensorFlowController.TensorFlowMain
+GET    /TensorFlowPreferences           controllers.TensorFlowController.TensorFlowPreferences
+POST   /TensorFlowPreferences       controllers.TensorFlowController.TensorFlowPreferencesPOST
+GET    /TensorFlowConnect          controllers.TensorFlowController.TensorFlowConnect
+GET    /TensorFlowTestSet     controllers.TensorFlowController.TensorFlowTestSet
+GET    /TensorFlowStartTraining controllers.TensorFlowController.startTraining
+GET    /TensorFlowStartTracking controllers.TensorFlowController.startTracking
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                       controllers.Assets.versioned(path="/public", file: Asset)

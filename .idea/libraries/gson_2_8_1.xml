@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="gson-2.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/gson-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/jackson-annotations-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/jackson-core-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/jackson-databind-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/javax.websocket-client-api-1.1 (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/LeapJava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/mallet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Client/src/lib/tyrus-standalone-client-1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

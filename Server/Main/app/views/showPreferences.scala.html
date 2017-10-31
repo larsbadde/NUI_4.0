@@ -1,0 +1,187 @@
+@import java.util
+
+@import services.rnn.TensorFlowGlobalValues.Preferences
+@(preferences: Preferences)
+@main("TensorFlow_Preferences") {
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/DataTables-1.10.15/css/dataTables.bootstrap.css")'>
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/Select-1.2.2/css/select.bootstrap.min.css")'>
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/FixedHeader-3.1.2/css/fixedHeader.bootstrap.min.css")'>
+
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/DataTables-1.10.15/js/jquery.dataTables.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/DataTables-1.10.15/js/dataTables.bootstrap.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/Select-1.2.2/js/dataTables.select.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/FixedHeader-3.1.2/js/dataTables.fixedHeader.min.js")'></script>
+
+    <script>
+
+        function save_preferences() {
+            alert("save")
+        }
+
+    </script>
+
+    <style>
+    .onoffswitch {
+        position: relative; width: 90px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 20px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "ON";
+        padding-left: 10px;
+        background-color: #34A7C1; color: #FFFFFF;
+    }
+    .onoffswitch-inner:after {
+        content: "OFF";
+        padding-right: 10px;
+        background-color: #EEEEEE; color: #999999;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 18px; margin: 6px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 56px;
+        border: 2px solid #999999; border-radius: 20px;
+        transition: all 0.3s ease-in 0s;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px;
+    }
+
+
+    </style>
+
+
+
+
+} {
+    <div class="container-fluname">
+
+        <h2><img src="@routes.Assets.versioned("images/tensorFlow_raw.png")" height="50"> Einstellungen  </h2>
+        <div class="table-responsive">
+            <table name="frame_table" class="table table-striped table-bordered table-responsive">
+                <thead></thead>
+
+                <tbody name="frame-table-body">
+                    <form action = '@routes.TensorFlowController.TensorFlowPreferencesPOST()' method="post">
+                        <tr>
+                            <td><strong>NR_OF_EPOCHS</strong></td>
+                            <td name="NR_OF_EPOCHS"><input name ="NR_OF_EPOCHS" type="number" value=@preferences.NR_OF_EPOCHS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NR_OF_STEPS</strong></td>
+                            <td name="NR_OF_STEPS"><input name="NR_OF_STEPS" type="number" value=@preferences.NR_OF_STEPS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NR_OF_LAYERS</strong></td>
+                            <td name="NR_OF_LAYERS"><input name="NR_OF_LAYERS" type="number" value=@preferences.NR_OF_LAYERS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NR_OF_NEURONS</strong></td>
+                            <td name="NR_OF_NEURONS"><input name="NR_OF_NEURONS" type="number" value=@preferences.NR_OF_NEURONS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NR_OF_OUTPUTS</strong></td>
+                            <td name="NR_OF_OUTPUTS"><input name="NR_OF_OUTPUTS" type="number" value=@preferences.NR_OF_OUTPUTS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NR_OF_INPUTS</strong></td>
+                            <td name="NR_OF_INPUTS"><input name="NR_OF_INPUTS" type="number" value=@preferences.NR_OF_INPUTS></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>BATCH_SIZE</strong></td>
+                            <td name="BATCH_SIZE"><input name="BATCH_SIZE" type="number" value=@preferences.BATCH_SIZE></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>PREPROCESS_COLLAPSE_REPEATED</strong></td>
+                            <td name="PREPROCESS_COLLAPSE_REPEATED"><input name="PREPROCESS_COLLAPSE_REPEATED" type="text" value=@preferences.PREPROCESS_COLLAPSE_REPEATED></input>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>CTC_MERGE_REPEATED</strong></td>
+                            <td name="CTC_MERGE_REPEATED"><input name="CTC_MERGE_REPEATED" type="text" value=@preferences.CTC_MERGE_REPEATED></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>APPLY_DROPOUT</strong></td>
+                            <td name="APPLY_DROPOUT"><input name="APPLY_DROPOUT" type="text" value=@preferences.APPLY_DROPOUT></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>KEEP_PROB</strong></td>
+                            <td name="KEEP_PROB"><input name="KEEP_PROB" type="number" step="0.1" value=@preferences.KEEP_PROB></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>ACTIVATION</strong></td>
+                            <td name="ACTIVATION"><input name="ACTIVATION" type="text" value=@preferences.ACTIVATION></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>LEARNING_RATE</strong></td>
+                            <td name="LEARNING_RATE"><input name="LEARNING_RATE" type="number" step="0.0001" value=@preferences.LEARNING_RATE></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>OPTIMIZER</strong></td>
+                            <td name="OPTIMIZER"><input name="OPTIMIZER" type="text" value=@preferences.OPTIMIZER></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>MOMENTUM</strong></td>
+                            <td name="MOMENTUM"><input name="MOMENTUM" type="number" step="0.1" value=@preferences.MOMENTUM></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>EPSILON</strong></td>
+                            <td name="EPSILON"><input name="EPSILON" type="number" step="0.00000001" value=@preferences.EPSILON></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>DECAY_1</strong></td>
+                            <td name="DECAY_1"><input name="DECAY_1" type="number" step="0.1" value=@preferences.DECAY_1></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>DECAY_2</strong></td>
+                            <td name="DECAY_2"><input name="DECAY_2" type="number" step="0.0001" value=@preferences.DECAY_2></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>USE_LOCKING</strong></td>
+                            <td name="USE_LOCKING"><input name="USE_LOCKING" type="text" value=@preferences.USE_LOCKING></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>CENTERED</strong></td>
+                            <td name="CENTERED"><input name="CENTERED" type="text" value=@preferences.CENTERED></input></td>
+                        </tr>
+
+                        <td>
+
+                            <button name="submit" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+
+                        </td>
+
+                    </form>
+
+
+
+
+
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+}

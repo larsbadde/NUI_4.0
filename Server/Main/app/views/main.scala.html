@@ -1,0 +1,126 @@
+@(title: String)(header: Html)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href='@routes.Assets.versioned("bootstrap-3.3.7-dist/css/bootstrap.css")'>
+
+
+        <script type='text/javascript' src='@routes.Assets.versioned("javascripts/jquery-3.2.1.js")'></script>
+        <script type='text/javascript' src='@routes.Assets.versioned("bootstrap-3.3.7-dist/js/bootstrap.js")'></script>
+
+
+
+        @* Here's where we render the page title `String`. *@
+
+
+        <title>@title</title>
+
+        @header
+
+    </head>
+
+
+    <body>
+        <header class="bs-docs-nav navbar navbar-inverse navbar-static-top" id="top">
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-navbar" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/" style="font-family: sans-serif">NUI4.0</a>
+                </div>
+                <nav class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-road" aria-hidden="true"></span>  Training    <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+
+                                <li><a name="internalLink" href="@routes.TrainingController.Training">Trainingsdaten erzeugen</a></li>
+
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Bestehende Trainingsdaten</li>
+                                <li><a name="internalLink" href="@routes.TrainingController.ShowUserAggregateTrainingData">Trainingsdaten sichten</a></li>
+                                <li><a name="internalLink" href="@routes.TrainingController.ExportOptions">Trainingsdaten exportieren</a></li>
+
+
+                            </ul>
+
+                        </li>
+
+
+
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Verwaltung<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">Nutzerverwaltung</li>
+                                <li><a href="@routes.HomeController.ShowUsers">Alle Nutzer anzeigen</a></li>
+                                <li><a href="@routes.HomeController.StartAddingAUser">Nutzer hinzufügen</a></li>
+
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Gestenverwaltung</li>
+                                <li><a href="@routes.HomeController.ShowGestures">Alle Gesten anzeigen</a></li>
+                                <li><a href="@routes.HomeController.StartAddingAGesture">Geste hinzufügen</a></li>
+
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Deviceverwaltung</li>
+                                <li><a href="@routes.HomeController.ShowDevices">Alle Devices anzeigen</a></li>
+                                <li><a href="@routes.HomeController.StartAddingADevice">Device hinzufügen</a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="@routes.Assets.versioned("images/tensorFlow_raw.png")" height="20">  TensorFlow   <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+
+                                <li class="dropdown-header">Maintenace</li>
+                                <li><a name="internalLink" href="@routes.TensorFlowController.TensorFlowMain">TensorFlow Control</a></li>
+                                <li><a name="internalLink" href="@routes.TensorFlowController.TensorFlowConnect">Reconnect to TensorFlowServer</a></li>
+                                <li><a name="internalLink" href="@routes.TensorFlowController.TensorFlowTestSet">Test Sequence</a></li>
+                                <li><a name="internalLink" href="@routes.TensorFlowController.TensorFlowPreferences ">Einstellungen</a></li>
+
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">...</li>
+
+
+
+                            </ul>
+
+                        </li>
+
+
+
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="container">
+        @content
+        </div>
+
+    </body>
+</html>

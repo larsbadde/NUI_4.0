@@ -1,0 +1,13 @@
+
+@(success: Boolean, path: String)
+@main("ExportFeedback") {
+    <script type='text/javascript' src='@routes.Assets.versioned("javascripts/custom/training.scala.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("javascripts/jquery-3.2.1.js")'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+} {
+    @if(!success) {
+        <div class="alert alert-danger" role="alert">Fehler beim Export: + @path</div>
+    } else {
+        <div class="alert alert-success" role="alert"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>   Export erfolgreich! </div>
+    }
+}

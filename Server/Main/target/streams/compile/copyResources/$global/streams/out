@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\application.conf,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\evolutions,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\logback.xml,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\routes,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\evolutions\default,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\evolutions\default\1.sql,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\evolutions\default\1.sql)[0m
+[0m[[0mdebug[0m] [0m	(D:\NUI_4.0\Server\Main\conf\evolutions\default\2.sql,D:\NUI_4.0\Server\Main\target\scala-2.11\classes\evolutions\default\2.sql)[0m

@@ -1,0 +1,89 @@
+@import java.util
+
+@(deviceList: util.List[User])
+@main("Nutzer") {
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/DataTables-1.10.15/css/dataTables.bootstrap.css")'>
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/Select-1.2.2/css/select.bootstrap.min.css")'>
+    <link rel="stylesheet" href='@routes.Assets.versioned("dataTables/FixedHeader-3.1.2/css/fixedHeader.bootstrap.min.css")'>
+
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/DataTables-1.10.15/js/jquery.dataTables.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/DataTables-1.10.15/js/dataTables.bootstrap.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/Select-1.2.2/js/dataTables.select.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.versioned("dataTables/FixedHeader-3.1.2/js/dataTables.fixedHeader.min.js")'></script>
+
+    <script>
+            $("document").ready(function() {
+                // The DOM is ready!
+
+                var table = $('#user-table').DataTable( {
+                    pageLength: 10,
+                    fixedHeader: true,
+                    select: {
+                        blurable: true,
+                        style: 'single'
+                    },
+                    language: {
+                        url: '@routes.Assets.versioned("dataTables/german.lang")'
+                    },
+                    ajax: {
+                        url:     '@routes.HomeController.getJsonUserList',
+                        dataSrc: ''
+                    },
+
+                    columns: [
+                        { data: 'id' },
+                        { data: 'prename' },
+                        { data: 'surname' },
+                        { data: 'right_handed' },
+                        @*
+                        {
+                            "mData": null,
+                            "bSortable": false,
+                            "mRender": function (data, type, full) {
+                                return '<div class="btn-group btn-group-xs btn-group-vertical" role="group" aria-label="...">' +
+                                        '<a class="btn btn-info btn-sm" href="' + jsRoutes.controllers.ItemController.showItem(full.itemId).url  + '">Anzeigen</a>' +
+                                        '<a class="btn btn-info btn-sm" href="' + jsRoutes.controllers.ItemController.showEditItem(full.itemId).url  + '">Bearbeiten</a>' +
+                                        '<a class="btn btn-info btn-sm" href="' + jsRoutes.controllers.ItemController.showItem(full.itemId).url  + '">Ausleihen</a>' +
+                                        '</div>';
+                            }
+                        }
+                        *@
+                    ]
+
+                });
+
+                $('#user-table-body').on('dblclick', 'tr', function (e) {
+                    var data = table.row( this ).data();
+                    var id = data.id;
+                    open("//"+window.location.host+"/ShowUser/"+id, "_self");
+                });
+
+
+
+            });
+
+    </script>
+
+
+} {
+    <div class="container-fluid">
+
+
+        <div class="table-responsive">
+            <table id="user-table" class="table table-striped table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Vorname</th>
+                        <th>Nachname</th>
+                        <th>Rechtshänder?</th>
+                    </tr>
+                </thead>
+                <tbody id="user-table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+}
