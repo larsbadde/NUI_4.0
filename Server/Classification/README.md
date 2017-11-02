@@ -36,7 +36,7 @@ am einfachsten ist die Installation über pip3
 * grundlegende Parameter wie die Anzahl an Layern, die Neuronenanzahl, die Abbruchkriterien und zahlreiche andere Funktionen können über die preferences.xml agepasst werden (Die Verwaltungskomponente enthält eine GUI zur Anpassung dieser Parameter).
 * jedes ANN besteht aus LSTM-Neuronen
 
-![LSTM-Zelle](img/LSTM_AND_BASIC_with_gates.png)
+![LSTM-Zelle](https://github.com/larsbadde/NUI_4.0/blob/master/img/LSTM_AND_BASIC_with_gates.png)
 
 * jedes Netz besitzt einen CTC-Output-Layer zur Herstellung der temporalen Zusammenhänge
 
