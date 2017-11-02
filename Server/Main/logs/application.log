@@ -1,13 +1,13 @@
-2017-10-31 10:45:31,814 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-10 - Creating Pool for datasource 'default'
-2017-10-31 10:45:31,826 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-10 - HikariPool-1 - Starting...
-2017-10-31 10:45:32,037 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-10 - HikariPool-1 - Start completed.
-2017-10-31 10:45:32,051 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-10 - Database [default] connected at jdbc:h2:file:./nui
-2017-10-31 10:45:32,293 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-10 - Reflections took 84 ms to scan 2 urls, producing 11 keys and 253 values 
-2017-10-31 10:45:32,376 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-10 - DatabasePlatform name:default platform:h2
-2017-10-31 10:45:32,673 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-10 - trimming off 'is' from boolean field name isRight in class models.TrainingData
-2017-10-31 10:45:32,702 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-10 - trimming off 'is' from boolean field name isRight in class models.Hand
-2017-10-31 10:45:33,240 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
-2017-10-31 10:45:33,625 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-10 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-11-02 12:34:28,442 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2017-11-02 12:34:28,460 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-3 - HikariPool-1 - Starting...
+2017-11-02 12:34:28,677 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-3 - HikariPool-1 - Start completed.
+2017-11-02 12:34:28,690 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:file:./nui
+2017-11-02 12:34:29,039 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-3 - Reflections took 121 ms to scan 2 urls, producing 11 keys and 253 values 
+2017-11-02 12:34:29,127 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-3 - DatabasePlatform name:default platform:h2
+2017-11-02 12:34:29,703 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-3 - trimming off 'is' from boolean field name isRight in class models.TrainingData
+2017-11-02 12:34:29,745 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-3 - trimming off 'is' from boolean field name isRight in class models.Hand
+2017-11-02 12:34:30,416 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-11-02 12:34:30,893 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-10-31 10:45:33,633 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev)
+2017-11-02 12:34:30,897 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
