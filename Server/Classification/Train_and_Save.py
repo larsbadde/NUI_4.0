@@ -24,7 +24,6 @@ import print_progress as progress
 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 MAIN_DIR = os.getcwd()
 
 f = open('banner.txt', 'r')

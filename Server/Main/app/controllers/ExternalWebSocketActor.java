@@ -121,7 +121,6 @@ public class ExternalWebSocketActor extends UntypedAbstractActor {
                 Frame40 frame = new Frame40();
                 frame = dataMessage.data;
 
-                //System.out.println(frame.timestamp.toString());
                 try {
                     ExtractHandData.Frame2Hand(frame);
                 } catch (Exception e) {

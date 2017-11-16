@@ -32,11 +32,6 @@ public class ExtractHandData {
     }
 
 
-    /**
-     * TODO:
-     * -
-     */
-
     public static void Frame2Hand(ExternalWebSocketActor.Frame40 frame40) {
 
         for (ExternalWebSocketActor.Hand40 hand40 : frame40.Hands) {

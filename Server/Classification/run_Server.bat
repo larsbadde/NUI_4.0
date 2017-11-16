@@ -2,5 +2,5 @@
 call D:\NUI_4.0\Server\Classification\exec\anaconda.bat
 call D:\NUI_4.0\Server\Classification\exec\activate_tf.bat
 call cd D:\NUI_4.0\Server\Classification\
-call DD:\NUI_4.0\Server\Classification\exec\run_server.bat
+call D:\NUI_4.0\Server\Classification\exec\run_server.bat
 pause
