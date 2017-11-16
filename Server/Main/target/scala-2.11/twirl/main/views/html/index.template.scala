@@ -58,8 +58,8 @@ Seq[Any](_display_(/*1.2*/main("Training")/*1.18*/ {_display_(Seq[Any](format.ra
 
               /*
                   -- GENERATED --
-                  DATE: Fri Sep 01 12:46:47 CEST 2017
-                  SOURCE: D:/NUI4.0/NUI4.0_Server/app/views/index.scala.html
+                  DATE: Thu Nov 16 13:50:47 CET 2017
+                  SOURCE: D:/NUI_4.0/Server/Main/app/views/index.scala.html
                   HASH: 15b5149d2337e44ae80484e9daf8d512e622d582
                   MATRIX: 1030->1|1054->17|1093->19|1125->25|1188->62|1202->68|1280->125|1360->179|1374->185|1442->233|1592->366|1630->368|1662->374|1766->452|1780->458|1844->502|2058->686
                   LINES: 33->1|33->1|33->1|34->2|34->2|34->2|34->2|35->3|35->3|35->3|37->5|37->5|38->6|40->8|40->8|40->8|44->12

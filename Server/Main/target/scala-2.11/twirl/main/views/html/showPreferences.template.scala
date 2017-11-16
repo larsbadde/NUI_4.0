@@ -114,88 +114,113 @@ Seq[Any](format.raw/*4.28*/("""
 
                 <tbody name="frame-table-body">
                     <form action = '"""),_display_(/*85.38*/routes/*85.44*/.TensorFlowController.TensorFlowPreferencesPOST()),format.raw/*85.93*/("""' method="post">
+
+                        <td>
+
+                            <button name="submit" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+
+                        </td>
+
                         <tr>
                             <td><strong>NR_OF_EPOCHS</strong></td>
-                            <td name="NR_OF_EPOCHS"><input name ="NR_OF_EPOCHS" type="number" value="""),_display_(/*88.102*/preferences/*88.113*/.NR_OF_EPOCHS),format.raw/*88.126*/("""></input></td>
+                            <td name="NR_OF_EPOCHS"><input name ="NR_OF_EPOCHS" type="number" value="""),_display_(/*95.102*/preferences/*95.113*/.NR_OF_EPOCHS),format.raw/*95.126*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>NR_OF_STEPS</strong></td>
-                            <td name="NR_OF_STEPS"><input name="NR_OF_STEPS" type="number" value="""),_display_(/*92.99*/preferences/*92.110*/.NR_OF_STEPS),format.raw/*92.122*/("""></input></td>
+                            <td name="NR_OF_STEPS"><input name="NR_OF_STEPS" type="number" value="""),_display_(/*99.99*/preferences/*99.110*/.NR_OF_STEPS),format.raw/*99.122*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>NR_OF_LAYERS</strong></td>
-                            <td name="NR_OF_LAYERS"><input name="NR_OF_LAYERS" type="number" value="""),_display_(/*96.101*/preferences/*96.112*/.NR_OF_LAYERS),format.raw/*96.125*/("""></input></td>
+                            <td name="NR_OF_LAYERS"><input name="NR_OF_LAYERS" type="number" value="""),_display_(/*103.101*/preferences/*103.112*/.NR_OF_LAYERS),format.raw/*103.125*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>NR_OF_NEURONS</strong></td>
-                            <td name="NR_OF_NEURONS"><input name="NR_OF_NEURONS" type="number" value="""),_display_(/*100.103*/preferences/*100.114*/.NR_OF_NEURONS),format.raw/*100.128*/("""></input></td>
+                            <td name="NR_OF_NEURONS"><input name="NR_OF_NEURONS" type="number" value="""),_display_(/*107.103*/preferences/*107.114*/.NR_OF_NEURONS),format.raw/*107.128*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>NR_OF_OUTPUTS</strong></td>
-                            <td name="NR_OF_OUTPUTS"><input name="NR_OF_OUTPUTS" type="number" value="""),_display_(/*104.103*/preferences/*104.114*/.NR_OF_OUTPUTS),format.raw/*104.128*/("""></input></td>
+                            <td name="NR_OF_OUTPUTS"><input name="NR_OF_OUTPUTS" type="number" value="""),_display_(/*111.103*/preferences/*111.114*/.NR_OF_OUTPUTS),format.raw/*111.128*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>NR_OF_INPUTS</strong></td>
-                            <td name="NR_OF_INPUTS"><input name="NR_OF_INPUTS" type="number" value="""),_display_(/*108.101*/preferences/*108.112*/.NR_OF_INPUTS),format.raw/*108.125*/("""></input></td>
+                            <td name="NR_OF_INPUTS"><input name="NR_OF_INPUTS" type="number" value="""),_display_(/*115.101*/preferences/*115.112*/.NR_OF_INPUTS),format.raw/*115.125*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>BATCH_SIZE</strong></td>
-                            <td name="BATCH_SIZE"><input name="BATCH_SIZE" type="number" value="""),_display_(/*112.97*/preferences/*112.108*/.BATCH_SIZE),format.raw/*112.119*/("""></input></td>
+                            <td name="BATCH_SIZE"><input name="BATCH_SIZE" type="number" value="""),_display_(/*119.97*/preferences/*119.108*/.BATCH_SIZE),format.raw/*119.119*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>PREPROCESS_COLLAPSE_REPEATED</strong></td>
-                            <td name="PREPROCESS_COLLAPSE_REPEATED"><input name="PREPROCESS_COLLAPSE_REPEATED" type="text" value="""),_display_(/*116.131*/preferences/*116.142*/.PREPROCESS_COLLAPSE_REPEATED),format.raw/*116.171*/("""></input>
+                            <td name="PREPROCESS_COLLAPSE_REPEATED"><input name="PREPROCESS_COLLAPSE_REPEATED" type="text" value="""),_display_(/*123.131*/preferences/*123.142*/.PREPROCESS_COLLAPSE_REPEATED),format.raw/*123.171*/("""></input>
 
                             </td>
                         </tr>
                         <tr>
                             <td><strong>CTC_MERGE_REPEATED</strong></td>
-                            <td name="CTC_MERGE_REPEATED"><input name="CTC_MERGE_REPEATED" type="text" value="""),_display_(/*122.111*/preferences/*122.122*/.CTC_MERGE_REPEATED),format.raw/*122.141*/("""></input></td>
+                            <td name="CTC_MERGE_REPEATED"><input name="CTC_MERGE_REPEATED" type="text" value="""),_display_(/*129.111*/preferences/*129.122*/.CTC_MERGE_REPEATED),format.raw/*129.141*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>APPLY_DROPOUT</strong></td>
-                            <td name="APPLY_DROPOUT"><input name="APPLY_DROPOUT" type="text" value="""),_display_(/*126.101*/preferences/*126.112*/.APPLY_DROPOUT),format.raw/*126.126*/("""></input></td>
+                            <td name="APPLY_DROPOUT"><input name="APPLY_DROPOUT" type="text" value="""),_display_(/*133.101*/preferences/*133.112*/.APPLY_DROPOUT),format.raw/*133.126*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>KEEP_PROB</strong></td>
-                            <td name="KEEP_PROB"><input name="KEEP_PROB" type="number" step="0.1" value="""),_display_(/*130.106*/preferences/*130.117*/.KEEP_PROB),format.raw/*130.127*/("""></input></td>
+                            <td name="KEEP_PROB"><input name="KEEP_PROB" type="number" step="0.1" value="""),_display_(/*137.106*/preferences/*137.117*/.KEEP_PROB),format.raw/*137.127*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>ACTIVATION</strong></td>
-                            <td name="ACTIVATION"><input name="ACTIVATION" type="text" value="""),_display_(/*134.95*/preferences/*134.106*/.ACTIVATION),format.raw/*134.117*/("""></input></td>
+                            <td name="ACTIVATION"><input name="ACTIVATION" type="text" value="""),_display_(/*141.95*/preferences/*141.106*/.ACTIVATION),format.raw/*141.117*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>LEARNING_RATE</strong></td>
-                            <td name="LEARNING_RATE"><input name="LEARNING_RATE" type="number" step="0.0001" value="""),_display_(/*138.117*/preferences/*138.128*/.LEARNING_RATE),format.raw/*138.142*/("""></input></td>
+                            <td name="LEARNING_RATE"><input name="LEARNING_RATE" type="number" step="0.0001" value="""),_display_(/*145.117*/preferences/*145.128*/.LEARNING_RATE),format.raw/*145.142*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>OPTIMIZER</strong></td>
-                            <td name="OPTIMIZER"><input name="OPTIMIZER" type="text" value="""),_display_(/*142.93*/preferences/*142.104*/.OPTIMIZER),format.raw/*142.114*/("""></input></td>
+                            <td name="OPTIMIZER"><input name="OPTIMIZER" type="text" value="""),_display_(/*149.93*/preferences/*149.104*/.OPTIMIZER),format.raw/*149.114*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>MOMENTUM</strong></td>
-                            <td name="MOMENTUM"><input name="MOMENTUM" type="number" step="0.1" value="""),_display_(/*146.104*/preferences/*146.115*/.MOMENTUM),format.raw/*146.124*/("""></input></td>
+                            <td name="MOMENTUM"><input name="MOMENTUM" type="number" step="0.1" value="""),_display_(/*153.104*/preferences/*153.115*/.MOMENTUM),format.raw/*153.124*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>EPSILON</strong></td>
-                            <td name="EPSILON"><input name="EPSILON" type="number" step="0.00000001" value="""),_display_(/*150.109*/preferences/*150.120*/.EPSILON),format.raw/*150.128*/("""></input></td>
+                            <td name="EPSILON"><input name="EPSILON" type="number" step="0.00000001" value="""),_display_(/*157.109*/preferences/*157.120*/.EPSILON),format.raw/*157.128*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>DECAY_1</strong></td>
-                            <td name="DECAY_1"><input name="DECAY_1" type="number" step="0.1" value="""),_display_(/*154.102*/preferences/*154.113*/.DECAY_1),format.raw/*154.121*/("""></input></td>
+                            <td name="DECAY_1"><input name="DECAY_1" type="number" step="0.1" value="""),_display_(/*161.102*/preferences/*161.113*/.DECAY_1),format.raw/*161.121*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>DECAY_2</strong></td>
-                            <td name="DECAY_2"><input name="DECAY_2" type="number" step="0.0001" value="""),_display_(/*158.105*/preferences/*158.116*/.DECAY_2),format.raw/*158.124*/("""></input></td>
+                            <td name="DECAY_2"><input name="DECAY_2" type="number" step="0.0001" value="""),_display_(/*165.105*/preferences/*165.116*/.DECAY_2),format.raw/*165.124*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>USE_LOCKING</strong></td>
-                            <td name="USE_LOCKING"><input name="USE_LOCKING" type="text" value="""),_display_(/*162.97*/preferences/*162.108*/.USE_LOCKING),format.raw/*162.120*/("""></input></td>
+                            <td name="USE_LOCKING"><input name="USE_LOCKING" type="text" value="""),_display_(/*169.97*/preferences/*169.108*/.USE_LOCKING),format.raw/*169.120*/("""></input></td>
                         </tr>
                         <tr>
                             <td><strong>CENTERED</strong></td>
-                            <td name="CENTERED"><input name="CENTERED" type="text" value="""),_display_(/*166.91*/preferences/*166.102*/.CENTERED),format.raw/*166.111*/("""></input></td>
+                            <td name="CENTERED"><input name="CENTERED" type="text" value="""),_display_(/*173.91*/preferences/*173.102*/.CENTERED),format.raw/*173.111*/("""></input></td>
                         </tr>
+
+                        <tr>
+                            <td><strong>MIN_ACC</strong></td>
+                            <td name="MIN_ACC"><input name="MIN_ACC" type="number" step="0.0001" value="""),_display_(/*178.105*/preferences/*178.116*/.MIN_ACC),format.raw/*178.124*/("""></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>MAX_FKP</strong></td>
+                            <td name="MAX_FKP"><input name="MAX_FKP" type="number" step="0.0001" value="""),_display_(/*182.105*/preferences/*182.116*/.MAX_FKP),format.raw/*182.124*/("""></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>MAX_EPOCHS_SICNE_LAST_MAX</strong></td>
+                            <td name="MAX_EPOCHS_SICNE_LAST_MAX"><input name="MAX_EPOCHS_SICNE_LAST_MAX" type="number" value="""),_display_(/*186.127*/preferences/*186.138*/.MAX_EPOCHS_SICNE_LAST_MAX),format.raw/*186.164*/("""></input></td>
+                        </tr>
+                        <tr>
+                            <td><strong>MAX_TIMES_MAX_REACHED</strong></td>
+                            <td name="MAX_TIMES_MAX_REACHED"><input name="MAX_TIMES_MAX_REACHED" type="number" value="""),_display_(/*190.119*/preferences/*190.130*/.MAX_TIMES_MAX_REACHED),format.raw/*190.152*/("""></input></td>
+                        </tr>
+
 
                         <td>
 
@@ -231,11 +256,11 @@ Seq[Any](format.raw/*4.28*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon Oct 16 15:21:54 CEST 2017
-                  SOURCE: D:/NUI4.0/NUI4.0_Server/app/views/showPreferences.scala.html
-                  HASH: a924aab723e94e3d7289a316994a4f0fd4528ab5
-                  MATRIX: 651->1|675->22|1049->79|1170->105|1198->108|1236->138|1275->140|1307->146|1363->176|1377->182|1477->261|1541->299|1555->305|1649->378|1713->416|1727->422|1831->505|1905->552|1920->558|2020->636|2101->690|2116->696|2219->777|2300->831|2315->837|2409->909|2490->963|2505->969|2609->1051|2704->1118|2733->1119|2775->1133|2825->1156|2854->1157|2889->1165|2960->1208|2989->1209|3026->1219|3172->1338|3200->1339|3233->1345|3283->1367|3312->1368|3349->1378|3396->1398|3424->1399|3457->1405|3504->1424|3533->1425|3570->1435|3710->1548|3738->1549|3771->1555|3818->1574|3847->1575|3884->1585|4010->1684|4038->1685|4071->1691|4151->1743|4180->1744|4217->1754|4470->1980|4498->1981|4531->1987|4585->2013|4614->2014|4651->2024|4779->2125|4807->2126|4840->2132|4893->2157|4922->2158|4959->2168|5117->2299|5145->2300|5178->2306|5226->2326|5255->2327|5292->2337|5565->2583|5593->2584|5626->2590|5724->2660|5753->2661|5790->2671|5838->2692|5866->2693|5899->2699|5998->2770|6027->2771|6064->2781|6108->2798|6136->2799|6173->2809|6210->2828|6249->2830|6282->2836|6367->2894|6382->2900|6449->2946|6774->3244|6789->3250|6859->3299|7104->3516|7125->3527|7160->3540|7429->3782|7450->3793|7484->3805|7757->4050|7778->4061|7813->4074|8090->4322|8112->4333|8149->4347|8426->4595|8448->4606|8485->4620|8759->4865|8781->4876|8817->4889|9084->5128|9106->5139|9140->5150|9460->5441|9482->5452|9534->5481|9856->5774|9878->5785|9920->5804|10195->6050|10217->6061|10254->6075|10530->6322|10552->6333|10585->6343|10850->6580|10872->6591|10906->6602|11197->6864|11219->6875|11256->6889|11518->7123|11540->7134|11573->7144|11846->7388|11868->7399|11900->7408|12177->7656|12199->7667|12230->7675|12500->7916|12522->7927|12553->7935|12826->8179|12848->8190|12879->8198|13147->8438|13169->8449|13204->8461|13463->8692|13485->8703|13517->8712
-                  LINES: 24->1|25->3|30->4|35->4|36->5|36->5|36->5|37->6|37->6|37->6|37->6|38->7|38->7|38->7|39->8|39->8|39->8|41->10|41->10|41->10|42->11|42->11|42->11|43->12|43->12|43->12|44->13|44->13|44->13|48->17|48->17|49->18|50->19|50->19|52->21|55->24|55->24|56->25|58->27|58->27|59->28|59->28|59->28|60->29|61->30|61->30|62->31|62->31|62->31|63->32|65->34|65->34|66->35|66->35|66->35|67->36|69->38|69->38|70->39|70->39|70->39|71->40|74->43|74->43|75->44|75->44|75->44|76->45|79->48|79->48|80->49|80->49|80->49|81->50|85->54|85->54|86->55|86->55|86->55|87->56|93->62|93->62|94->63|94->63|94->63|95->64|96->65|96->65|97->66|97->66|97->66|98->67|99->68|99->68|102->71|107->76|107->76|108->77|110->79|110->79|110->79|116->85|116->85|116->85|119->88|119->88|119->88|123->92|123->92|123->92|127->96|127->96|127->96|131->100|131->100|131->100|135->104|135->104|135->104|139->108|139->108|139->108|143->112|143->112|143->112|147->116|147->116|147->116|153->122|153->122|153->122|157->126|157->126|157->126|161->130|161->130|161->130|165->134|165->134|165->134|169->138|169->138|169->138|173->142|173->142|173->142|177->146|177->146|177->146|181->150|181->150|181->150|185->154|185->154|185->154|189->158|189->158|189->158|193->162|193->162|193->162|197->166|197->166|197->166
+                  DATE: Thu Nov 16 13:50:48 CET 2017
+                  SOURCE: D:/NUI_4.0/Server/Main/app/views/showPreferences.scala.html
+                  HASH: 3059f1a7002b59447af97e95e1068f2dcd3f3897
+                  MATRIX: 651->1|675->22|1049->79|1170->105|1198->108|1236->138|1275->140|1307->146|1363->176|1377->182|1477->261|1541->299|1555->305|1649->378|1713->416|1727->422|1831->505|1905->552|1920->558|2020->636|2101->690|2116->696|2219->777|2300->831|2315->837|2409->909|2490->963|2505->969|2609->1051|2704->1118|2733->1119|2775->1133|2825->1156|2854->1157|2889->1165|2960->1208|2989->1209|3026->1219|3172->1338|3200->1339|3233->1345|3283->1367|3312->1368|3349->1378|3396->1398|3424->1399|3457->1405|3504->1424|3533->1425|3570->1435|3710->1548|3738->1549|3771->1555|3818->1574|3847->1575|3884->1585|4010->1684|4038->1685|4071->1691|4151->1743|4180->1744|4217->1754|4470->1980|4498->1981|4531->1987|4585->2013|4614->2014|4651->2024|4779->2125|4807->2126|4840->2132|4893->2157|4922->2158|4959->2168|5117->2299|5145->2300|5178->2306|5226->2326|5255->2327|5292->2337|5565->2583|5593->2584|5626->2590|5724->2660|5753->2661|5790->2671|5838->2692|5866->2693|5899->2699|5998->2770|6027->2771|6064->2781|6108->2798|6136->2799|6173->2809|6210->2828|6249->2830|6282->2836|6367->2894|6382->2900|6449->2946|6774->3244|6789->3250|6859->3299|7293->3705|7314->3716|7349->3729|7618->3971|7639->3982|7673->3994|7947->4239|7969->4250|8005->4263|8282->4511|8304->4522|8341->4536|8618->4784|8640->4795|8677->4809|8951->5054|8973->5065|9009->5078|9276->5317|9298->5328|9332->5339|9652->5630|9674->5641|9726->5670|10048->5963|10070->5974|10112->5993|10387->6239|10409->6250|10446->6264|10722->6511|10744->6522|10777->6532|11042->6769|11064->6780|11098->6791|11389->7053|11411->7064|11448->7078|11710->7312|11732->7323|11765->7333|12038->7577|12060->7588|12092->7597|12369->7845|12391->7856|12422->7864|12692->8105|12714->8116|12745->8124|13018->8368|13040->8379|13071->8387|13339->8627|13361->8638|13396->8650|13655->8881|13677->8892|13709->8901|13984->9147|14006->9158|14037->9166|14310->9410|14332->9421|14363->9429|14676->9713|14698->9724|14747->9750|15048->10022|15070->10033|15115->10055
+                  LINES: 24->1|25->3|30->4|35->4|36->5|36->5|36->5|37->6|37->6|37->6|37->6|38->7|38->7|38->7|39->8|39->8|39->8|41->10|41->10|41->10|42->11|42->11|42->11|43->12|43->12|43->12|44->13|44->13|44->13|48->17|48->17|49->18|50->19|50->19|52->21|55->24|55->24|56->25|58->27|58->27|59->28|59->28|59->28|60->29|61->30|61->30|62->31|62->31|62->31|63->32|65->34|65->34|66->35|66->35|66->35|67->36|69->38|69->38|70->39|70->39|70->39|71->40|74->43|74->43|75->44|75->44|75->44|76->45|79->48|79->48|80->49|80->49|80->49|81->50|85->54|85->54|86->55|86->55|86->55|87->56|93->62|93->62|94->63|94->63|94->63|95->64|96->65|96->65|97->66|97->66|97->66|98->67|99->68|99->68|102->71|107->76|107->76|108->77|110->79|110->79|110->79|116->85|116->85|116->85|126->95|126->95|126->95|130->99|130->99|130->99|134->103|134->103|134->103|138->107|138->107|138->107|142->111|142->111|142->111|146->115|146->115|146->115|150->119|150->119|150->119|154->123|154->123|154->123|160->129|160->129|160->129|164->133|164->133|164->133|168->137|168->137|168->137|172->141|172->141|172->141|176->145|176->145|176->145|180->149|180->149|180->149|184->153|184->153|184->153|188->157|188->157|188->157|192->161|192->161|192->161|196->165|196->165|196->165|200->169|200->169|200->169|204->173|204->173|204->173|209->178|209->178|209->178|213->182|213->182|213->182|217->186|217->186|217->186|221->190|221->190|221->190
                   -- GENERATED --
               */
           

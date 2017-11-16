@@ -51,6 +51,10 @@ public class TensorFlowGlobalValues {
     public static Float DECAY_2 = (float) 0.9999;
     public static Boolean USE_LOCKING = Boolean.FALSE;
     public static Boolean CENTERED = Boolean.FALSE;
+    public static Float MIN_ACC = (float) 0.9947;
+    public static Float MAX_FKP = (float) 0.0001;
+    public static Integer MAX_EPOCHS_SICNE_LAST_MAX = 30;
+    public static Integer MAX_TIMES_MAX_REACHED = 10;
 
 
     private static Transformer createXmlTransformer() throws Exception {
@@ -91,13 +95,17 @@ public class TensorFlowGlobalValues {
         public  Float DECAY_2;
         public  Boolean USE_LOCKING;
         public  Boolean CENTERED;
+        public Float MIN_ACC;
+        public Float MAX_FKP;
+        public Integer MAX_EPOCHS_SICNE_LAST_MAX;
+        public Integer MAX_TIMES_MAX_REACHED;
 
         public Preferences() {
         }
 
         public Preferences(Integer NR_OF_EPOCHS, Integer NR_OF_STEPS, Integer NR_OF_LAYERS, Integer NR_OF_NEURONS, Integer NR_OF_OUTPUTS, Integer NR_OF_INPUTS, Integer BATCH_SIZE, Boolean PREPROCESS_COLLAPSE_REPEATED,
                            Boolean CTC_MERGE_REPEATED, Boolean APPLY_DROPOUT, Float KEEP_PROB, String ACTIVATION, Float LEARNING_RATE, String OPTIMIZER, Float MOMENTUM, Float EPSILON,Float DECAY_1, Float DECAY_2,
-                           Boolean USE_LOCKING, Boolean CENTERED) {
+                           Boolean USE_LOCKING, Boolean CENTERED, Float MIN_ACC, Float MAX_FKP, Integer MAX_EPOCHS_SICNE_LAST_MAX, Integer MAX_TIMES_MAX_REACHED) {
             this.NR_OF_EPOCHS = NR_OF_EPOCHS;
             this.NR_OF_STEPS = NR_OF_STEPS;
             this.NR_OF_LAYERS = NR_OF_LAYERS;
@@ -118,6 +126,10 @@ public class TensorFlowGlobalValues {
             this.DECAY_2 = DECAY_2;
             this.USE_LOCKING = USE_LOCKING;
             this.CENTERED = CENTERED;
+            this.MIN_ACC = MIN_ACC;
+            this.MAX_FKP = MAX_FKP;
+            this.MAX_EPOCHS_SICNE_LAST_MAX = MAX_EPOCHS_SICNE_LAST_MAX;
+            this.MAX_TIMES_MAX_REACHED = MAX_TIMES_MAX_REACHED;
 
         }
     }
@@ -221,6 +233,18 @@ public class TensorFlowGlobalValues {
                 case "CENTERED":
                     preferences.CENTERED = Boolean.valueOf(value);
                     break;
+                case "MIN_ACC":
+                    preferences.MIN_ACC = Float.valueOf(value);
+                    break;
+                case "MAX_FKP":
+                    preferences.MAX_FKP = Float.valueOf(value);
+                    break;
+                case "MAX_EPOCHS_SICNE_LAST_MAX":
+                    preferences.MAX_EPOCHS_SICNE_LAST_MAX = Integer.valueOf(value);
+                    break;
+                case "MAX_TIMES_MAX_REACHED":
+                    preferences.MAX_TIMES_MAX_REACHED = Integer.valueOf(value);
+                    break;
                 default:
                     break;
 
@@ -253,6 +277,10 @@ public class TensorFlowGlobalValues {
         DECAY_2 = preferences.DECAY_2;
         USE_LOCKING = preferences.USE_LOCKING;
         CENTERED = preferences.CENTERED;
+        MIN_ACC = preferences.MIN_ACC;
+        MAX_FKP = preferences.MAX_FKP;
+        MAX_EPOCHS_SICNE_LAST_MAX = preferences.MAX_EPOCHS_SICNE_LAST_MAX;
+        MAX_TIMES_MAX_REACHED = preferences.MAX_TIMES_MAX_REACHED;
 
     }
 
@@ -337,6 +365,18 @@ public class TensorFlowGlobalValues {
                     break;
                 case "CENTERED":
                     actual.setTextContent(String.valueOf(preferences.CENTERED));
+                    break;
+                case "MIN_ACC":
+                    actual.setTextContent(String.valueOf(preferences.MIN_ACC));
+                    break;
+                case "MAX_FKP":
+                    actual.setTextContent(String.valueOf(preferences.MAX_FKP));
+                    break;
+                case "MAX_EPOCHS_SICNE_LAST_MAX":
+                    actual.setTextContent(String.valueOf(preferences.MAX_EPOCHS_SICNE_LAST_MAX));
+                    break;
+                case "MAX_TIMES_MAX_REACHED":
+                    actual.setTextContent(String.valueOf(preferences.MAX_TIMES_MAX_REACHED));
                     break;
                 default:
                     break;

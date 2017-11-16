@@ -1,6 +1,6 @@
 <preferences>
     <option name="NR_OF_EPOCHS" value="99">
-        <value>102</value>
+        <value>101</value>
     </option>
     <option name="NR_OF_STEPS">
         <value>1</value>
@@ -60,16 +60,16 @@
         <value>false</value>
     </option>
     <option name="MIN_ACC">
-        <value>0.9947</value>
+        <value>0.9951</value>
     </option>
     <option name="MAX_FKP">
-        <value>0.0001</value>
+        <value>1.0E-4</value>
     </option>
     <option name="MAX_EPOCHS_SICNE_LAST_MAX">
-        <value>5</value>
+        <value>50</value>
     </option>
     <option name="MAX_TIMES_MAX_REACHED">
-        <value>1</value>
+        <value>7</value>
     </option>
 
 </preferences>

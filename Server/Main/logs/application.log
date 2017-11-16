@@ -1,13 +1,221 @@
-2017-11-02 12:34:28,442 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
-2017-11-02 12:34:28,460 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-3 - HikariPool-1 - Starting...
-2017-11-02 12:34:28,677 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-3 - HikariPool-1 - Start completed.
-2017-11-02 12:34:28,690 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:file:./nui
-2017-11-02 12:34:29,039 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-3 - Reflections took 121 ms to scan 2 urls, producing 11 keys and 253 values 
-2017-11-02 12:34:29,127 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-3 - DatabasePlatform name:default platform:h2
-2017-11-02 12:34:29,703 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-3 - trimming off 'is' from boolean field name isRight in class models.TrainingData
-2017-11-02 12:34:29,745 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-3 - trimming off 'is' from boolean field name isRight in class models.Hand
-2017-11-02 12:34:30,416 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
-2017-11-02 12:34:30,893 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-11-16 13:51:10,782 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2017-11-16 13:51:10,833 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-2 - HikariPool-1 - Starting...
+2017-11-16 13:51:11,327 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-2 - HikariPool-1 - Start completed.
+2017-11-16 13:51:11,346 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:h2:file:./nui
+2017-11-16 13:51:11,679 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-2 - Reflections took 201 ms to scan 2 urls, producing 11 keys and 253 values 
+2017-11-16 13:51:11,843 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-2 - DatabasePlatform name:default platform:h2
+2017-11-16 13:51:12,657 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-2 - trimming off 'is' from boolean field name isRight in class models.TrainingData
+2017-11-16 13:51:12,700 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-2 - trimming off 'is' from boolean field name isRight in class models.Hand
+2017-11-16 13:51:13,621 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2017-11-16 13:51:14,229 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-11-02 12:34:30,897 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2017-11-16 13:51:14,233 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
+2017-11-16 13:51:55,723 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2017-11-16 13:51:55,726 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-9 - HikariPool-1 - Shutdown initiated...
+2017-11-16 13:51:55,738 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-9 - HikariPool-1 - Shutdown completed.
+2017-11-16 13:51:56,036 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2017-11-16 13:51:56,037 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-9 - HikariPool-2 - Starting...
+2017-11-16 13:51:56,056 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-9 - HikariPool-2 - Start completed.
+2017-11-16 13:51:56,059 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:h2:file:./nui
+2017-11-16 13:51:56,103 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-9 - Reflections took 24 ms to scan 2 urls, producing 11 keys and 253 values 
+2017-11-16 13:51:56,121 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-9 - DatabasePlatform name:default platform:h2
+2017-11-16 13:51:56,132 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-9 - trimming off 'is' from boolean field name isRight in class models.TrainingData
+2017-11-16 13:51:56,163 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-9 - trimming off 'is' from boolean field name isRight in class models.Hand
+2017-11-16 13:51:56,344 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-2 - Slf4jLogger started
+2017-11-16 13:51:56,394 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-11-16 13:51:56,396 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev)
+2017-11-16 13:52:16,162 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Shutting down connection pool.
+2017-11-16 13:52:16,164 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-18 - HikariPool-2 - Shutdown initiated...
+2017-11-16 13:52:16,208 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-18 - HikariPool-2 - Shutdown completed.
+2017-11-16 13:52:16,462 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
+2017-11-16 13:52:16,464 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-18 - HikariPool-3 - Starting...
+2017-11-16 13:52:16,493 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-18 - HikariPool-3 - Start completed.
+2017-11-16 13:52:16,494 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-18 - Database [default] connected at jdbc:h2:file:./nui
+2017-11-16 13:52:16,577 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-18 - Reflections took 72 ms to scan 2 urls, producing 11 keys and 253 values 
+2017-11-16 13:52:16,595 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-18 - DatabasePlatform name:default platform:h2
+2017-11-16 13:52:16,605 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-18 - trimming off 'is' from boolean field name isRight in class models.TrainingData
+2017-11-16 13:52:16,615 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-18 - trimming off 'is' from boolean field name isRight in class models.Hand
+2017-11-16 13:52:16,786 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2017-11-16 13:52:16,836 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-18 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-11-16 13:52:16,839 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-18 - Application started (Dev)
+2017-11-16 13:52:31,844 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-13 - 
+
+! @762k23j5p - Internal server error, for (GET) [/TensorFlowPreferences] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NumberFormatException: For input string: "null"]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:180)
+	at play.core.server.AkkaHttpServer$$anonfun$13$$anonfun$apply$1.applyOrElse(AkkaHttpServer.scala:252)
+	at play.core.server.AkkaHttpServer$$anonfun$13$$anonfun$apply$1.applyOrElse(AkkaHttpServer.scala:251)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.scala$concurrent$impl$Promise$DefaultPromise$$dispatchOrAddCallback(Promise.scala:280)
+	at scala.concurrent.impl.Promise$DefaultPromise.onComplete(Promise.scala:270)
+	at scala.concurrent.Future$class.recoverWith(Future.scala:343)
+	at scala.concurrent.impl.Promise$DefaultPromise.recoverWith(Promise.scala:153)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$recoverWith$2.apply(Accumulator.scala:194)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$recoverWith$2.apply(Accumulator.scala:191)
+	at scala.Function1$$anonfun$andThen$1.apply(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.executeAction(AkkaHttpServer.scala:298)
+	at play.core.server.AkkaHttpServer.executeHandler(AkkaHttpServer.scala:255)
+	at play.core.server.AkkaHttpServer.play$core$server$AkkaHttpServer$$handleRequest(AkkaHttpServer.scala:196)
+	at play.core.server.AkkaHttpServer$$anonfun$5.apply(AkkaHttpServer.scala:107)
+	at play.core.server.AkkaHttpServer$$anonfun$5.apply(AkkaHttpServer.scala:107)
+	at akka.stream.impl.fusing.MapAsync$$anon$23.onPush(Ops.scala:1172)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:499)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:462)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:368)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:571)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:457)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:546)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:725)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:740)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:513)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:650)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:527)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:496)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.NumberFormatException: For input string: "null"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at java.lang.Float.valueOf(Float.java:416)
+	at services.rnn.TensorFlowGlobalValues.getPreferencesFromXML(TensorFlowGlobalValues.java:237)
+	at controllers.TensorFlowController.TensorFlowPreferences(TensorFlowController.java:97)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$26$$anonfun$apply$26.apply(Routes.scala:822)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$26$$anonfun$apply$26.apply(Routes.scala:822)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:136)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:135)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:110)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:78)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:113)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:113)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.Future$.apply(Future.scala:31)
+	at scala.concurrent.Future$.apply(Future.scala:492)
+	at play.core.j.JavaAction.apply(JavaAction.scala:113)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:96)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:89)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2$$anonfun$1.apply(Accumulator.scala:174)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2$$anonfun$1.apply(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:192)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2.apply(Accumulator.scala:174)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2.apply(Accumulator.scala:170)
+	at scala.Function1$$anonfun$andThen$1.apply(Function1.scala:52)
+	... 27 common frames omitted
+2017-11-16 13:56:55,451 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-30 - Shutting down connection pool.
+2017-11-16 13:56:55,459 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-30 - HikariPool-3 - Shutdown initiated...
+2017-11-16 13:56:55,470 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-30 - HikariPool-3 - Shutdown completed.
+2017-11-16 13:56:55,775 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-30 - Creating Pool for datasource 'default'
+2017-11-16 13:56:55,776 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-30 - HikariPool-4 - Starting...
+2017-11-16 13:56:55,787 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-30 - HikariPool-4 - Start completed.
+2017-11-16 13:56:55,788 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-30 - Database [default] connected at jdbc:h2:file:./nui
+2017-11-16 13:56:55,822 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-30 - Reflections took 22 ms to scan 2 urls, producing 11 keys and 253 values 
+2017-11-16 13:56:55,855 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-30 - DatabasePlatform name:default platform:h2
+2017-11-16 13:56:55,880 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-30 - trimming off 'is' from boolean field name isRight in class models.TrainingData
+2017-11-16 13:56:55,886 [INFO] from io.ebeaninternal.server.deploy.parse.DeployCreateProperties in play-dev-mode-akka.actor.default-dispatcher-30 - trimming off 'is' from boolean field name isRight in class models.Hand
+2017-11-16 13:56:56,076 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-7 - Slf4jLogger started
+2017-11-16 13:56:56,124 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-30 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-11-16 13:56:56,125 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-30 - Application started (Dev)
+2017-11-16 13:56:56,147 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-30 - 
+
+! @762k2ik5i - Internal server error, for (GET) [/TensorFlowPreferences] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[NumberFormatException: For input string: "null"]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:180)
+	at play.core.server.AkkaHttpServer$$anonfun$13$$anonfun$apply$1.applyOrElse(AkkaHttpServer.scala:252)
+	at play.core.server.AkkaHttpServer$$anonfun$13$$anonfun$apply$1.applyOrElse(AkkaHttpServer.scala:251)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344)
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.scala$concurrent$impl$Promise$DefaultPromise$$dispatchOrAddCallback(Promise.scala:280)
+	at scala.concurrent.impl.Promise$DefaultPromise.onComplete(Promise.scala:270)
+	at scala.concurrent.Future$class.recoverWith(Future.scala:343)
+	at scala.concurrent.impl.Promise$DefaultPromise.recoverWith(Promise.scala:153)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$recoverWith$2.apply(Accumulator.scala:194)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$recoverWith$2.apply(Accumulator.scala:191)
+	at scala.Function1$$anonfun$andThen$1.apply(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.executeAction(AkkaHttpServer.scala:298)
+	at play.core.server.AkkaHttpServer.executeHandler(AkkaHttpServer.scala:255)
+	at play.core.server.AkkaHttpServer.play$core$server$AkkaHttpServer$$handleRequest(AkkaHttpServer.scala:196)
+	at play.core.server.AkkaHttpServer$$anonfun$5.apply(AkkaHttpServer.scala:107)
+	at play.core.server.AkkaHttpServer$$anonfun$5.apply(AkkaHttpServer.scala:107)
+	at akka.stream.impl.fusing.MapAsync$$anon$23.onPush(Ops.scala:1172)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:499)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:462)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:368)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:571)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:457)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:546)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:725)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:740)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:513)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:650)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:527)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:496)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.NumberFormatException: For input string: "null"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at java.lang.Float.valueOf(Float.java:416)
+	at services.rnn.TensorFlowGlobalValues.getPreferencesFromXML(TensorFlowGlobalValues.java:237)
+	at controllers.TensorFlowController.TensorFlowPreferences(TensorFlowController.java:97)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$26$$anonfun$apply$26.apply(Routes.scala:822)
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$26$$anonfun$apply$26.apply(Routes.scala:822)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:136)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:135)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:110)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:78)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:113)
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:113)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.Future$.apply(Future.scala:31)
+	at scala.concurrent.Future$.apply(Future.scala:492)
+	at play.core.j.JavaAction.apply(JavaAction.scala:113)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:96)
+	at play.api.mvc.Action$$anonfun$apply$2.apply(Action.scala:89)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2$$anonfun$1.apply(Accumulator.scala:174)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2$$anonfun$1.apply(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:192)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2.apply(Accumulator.scala:174)
+	at play.api.libs.streams.StrictAccumulator$$anonfun$mapFuture$2.apply(Accumulator.scala:170)
+	at scala.Function1$$anonfun$andThen$1.apply(Function1.scala:52)
+	... 27 common frames omitted

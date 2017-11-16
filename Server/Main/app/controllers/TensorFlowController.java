@@ -140,6 +140,11 @@ public class TensorFlowController extends Controller {
         preferences.DECAY_2 = Float.valueOf(dynamicForm.get("DECAY_2"));
         preferences.USE_LOCKING = FormString2Bool(dynamicForm.get("USE_LOCKING"));
         preferences.CENTERED = FormString2Bool(dynamicForm.get("CENTERED"));
+        preferences.MIN_ACC = Float.valueOf(dynamicForm.get("MIN_ACC"));
+        preferences.MAX_FKP = Float.valueOf(dynamicForm.get("MAX_FKP"));
+        preferences.MAX_EPOCHS_SICNE_LAST_MAX = Integer.valueOf(dynamicForm.get("MAX_EPOCHS_SICNE_LAST_MAX"));
+        preferences.MAX_TIMES_MAX_REACHED = Integer.valueOf(dynamicForm.get("MAX_TIMES_MAX_REACHED"));
+
 
         TensorFlowGlobalValues.writePreferencesToXML(preferences);
 
